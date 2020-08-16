@@ -1,0 +1,27 @@
+i : to insert mode 
+a : to append mode
+A : append from the end of line
+x : delete where the curser is
+dd: delete whole line
+de: delete to the end of the follwing word
+dw: delete to the start of the following word
+d$: delete to the end of line
+    --can combine number : exp: 2dd, d2e, d2w...;
+p : put mode
+u : undo 
+U : undo all the change of the line
+Ctrl R: undo the undo
+r'x': replace where the cursor is with 'x'
+c : change mode, same as d mode 
+Ctrl G : show line loacation
+gg: to the file start, reverse with gg
+x+G: to the line number x
+/ :search mode downside
+? :search mode upside
+Ctrl O: return to the previous location of cursor
+:s/old word/new word/(g): replace (all) old word 
+with new word in a line
+
+:q! : quit without saving
+:wq : quit saving
+:!+command: to execute a cmd command
